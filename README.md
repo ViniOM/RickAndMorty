@@ -19,6 +19,6 @@
 
 ### Assim que o repositorio for intalado: 
 1- Abra o console e digite "npm install".<br>
-2- Digite "npm start".
+2- Em seguida, digite "npm start".
 
 ## Tudo pronto! bom proveito!!
