@@ -12,7 +12,7 @@
 
 ### Banco de Dados
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+<img width: 100px; height: 100px src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
 
 ## Como executar a API
 
