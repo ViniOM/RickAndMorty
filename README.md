@@ -22,4 +22,4 @@
 2- Abra o console e digite "npm install".<br>
 3- E por fim, digite "npm start".
 
-## Tudo pronto! bom proveito!!
+## Tudo pronto! Bom proveito.
