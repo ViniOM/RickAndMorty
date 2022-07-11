@@ -1,6 +1,6 @@
 # API Rick and Morty
 
-### API simples executando um crud de personagens de Rick And Morty
+### API simples que realiza um crud de personagens de Rick And Morty
 
 ## Linguagens: <h4>Javascript</h4>
 
