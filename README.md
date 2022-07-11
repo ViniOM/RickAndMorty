@@ -17,7 +17,7 @@
 ## Como executar a API
 
 ### Assim que o repositorio for intalado: 
-1- Abra o console e digite "npm intall".
+1- Abra o console e digite "npm intall".<br>
 2- Digite "npm start".
 
 ## Pronto! bom proveito!!
