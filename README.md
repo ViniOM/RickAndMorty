@@ -18,7 +18,7 @@
 # Como executar a API:
 
 ### Assim que o repositorio for intalado: 
-1- Entre na pasta correta, abra o console e digite "cd backend". 
+1- Entre na pasta correta, abra o console e digite "cd backend". <br>
 2- Abra o console e digite "npm install".<br>
 3- E por fim, digite "npm start".
 
