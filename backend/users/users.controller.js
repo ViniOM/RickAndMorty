@@ -54,4 +54,15 @@ const findAllUserController = async (req, res) => {
   res.send(users);
 };
 
-module.exports = { findAllUserController, createUserController };
+const findByNameUserController = async(req, res) => {
+  const {username} = req.body;
+
+  const foundUsername = await userService.findByNameUserService(username);
+
+  if (!foundUsername){
+    res.status(404).send({ message: "Username nao cadastrado!"})
+  }
+
+  res.status(201).send(foundUsername);
+}
+module.exports = { findAllUserController, createUserController, findByNameUserController };
