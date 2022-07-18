@@ -14,10 +14,11 @@ app.use(express.json());
 
 connectDataBase();
 
-app.use("/personagens", personagensRoute )
-app.use("/usuarios", usuariosRoute )
+app.use("/characters", personagensRoute )
+app.use("/users", usuariosRoute )
 app.use("/auth", authRoute );
+// app.use("/api-docs", swaggerRoute );
 
 app.listen(port, () => {
-  console.log(`Rodando na porta ${port}`);
+  console.log(`Rodando na porta lhttps://localhost:${port}`);
 });
