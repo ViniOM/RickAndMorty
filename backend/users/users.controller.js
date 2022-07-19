@@ -69,12 +69,6 @@ const findByNameUserController = async(req, res) => {
 const deleteUserController = async(req,res) => {
   const id = req.params.id;
 
-  if (!id) {
-    return res
-    .status(401)
-    .status({ message: "Id Invalido!"})
-  }
-
   await userService.deleteUserService(id);
 
   res.status(201).send({ message: "Deletado com sucesso!"})
