@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const personagensController = require('./personagens.controller');
-const { validId, validObjectBody } = require('../middleware/personagem.middleware');
+const { validId, validObjectBody } = require('../middleware/middleware');
 
 router.get('/', personagensController.findAllPersonagensController);
 router.post('/create', validObjectBody, personagensController.createPersonagensController);
